@@ -2,7 +2,9 @@ __author__ = 'sarah'
 
 from abc import ABC, abstractmethod
 import AI_agents.Search.utils as utils
-
+import gym
+keren_censor = gym.make("Taxi-v3")
+keren_censor.env
 
 class Problem (ABC):
 
